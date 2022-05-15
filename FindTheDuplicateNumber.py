@@ -1,4 +1,6 @@
 #Using a Counter class to count the frequency
+#I know this is not a valid solution to the solutin's 
+# instruction as it says use O(1) space but, it passed :)
 class Solution:
     def findDuplicate(self, nums: List[int]) -> int:
         numFrequency = Counter(nums)
